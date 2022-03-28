@@ -10,17 +10,42 @@
 </head>
 
 <body>
-	<header>
-		<h1>Joey Thinkful</h1>
-		<nav>
-			<ul id="menu">
-				<li><a href="/">Home</a></li>
-				<li><a href="/about">About</a></li>
-				<li><a href="/portfolio">Portfolio</a></li>
-				<li><a href="/contact">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
+	<form>
+		<div class="input-group">
+			<label for="phone">Name:</label>
+			<input
+			  id="name"
+			  type="text"
+			  name="name"
+			  pattern=""
+			  placeholder=""
+			/>
+		</div>
+		<div class="input-group">
+			<label for="email">Email:</label>
+			<input
+			  id="email"
+			  type="email"
+			  name="email"
+			  pattern=""
+			  placeholder=""
+			/>
+		</div>
+		<div class="input-group">
+			<label for="yourmessage">Your Message:</label>
+			<textarea
+			  id="yourmessage"
+			  type="text"
+			  name="yourmessage"
+			  pattern=""
+			  placeholder=""
+			  maxlength="500"
+			></textarea>
+		</div>
+		<div class="input-button">
+		<button type="submit">Submit</button>
+		</div>
+	</form>
 </body>
 
 </html>
